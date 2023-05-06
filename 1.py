@@ -13,7 +13,8 @@ import telepot
 
 
 
-path=sys.path[0]+r'/1.txt'
+# path=sys.path[0]+r'/1.txt'
+path = os.path.join(sys.path[0], '1.txt')
 num1 = 0
 token=str(sys.argv[1])
 chat_id=str(sys.argv[2])
