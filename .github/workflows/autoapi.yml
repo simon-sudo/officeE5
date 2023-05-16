@@ -10,7 +10,7 @@ on:
     branches: 
       - main
   schedule:
-    - cron: '0 0-8 * * *'
+    - cron: '0 5-8 * * FRI-SUN'
   workflow_dispatch:
     inputs:
    
